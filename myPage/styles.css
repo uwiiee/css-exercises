@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.leftHead {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+
+.logo {
+    margin: 0;
+}
+
+.rightHead {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-left: 24px;
+    margin: 0;
+}
+
+.flex3 {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+}
+
+.section1 {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.leftSec1 {
+    background-color: red;
+    width: 30%;
+    margin: 60px 0;
+}
+
+.sec1BigText {
+    font-size: 40px;
+    color: white;
+    margin: 0;
+}   
+
+.sec1SubText {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+.rightParagraph {
+    margin: 19.7%;
+    color: white;
+}
+
+.rightSec1 {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb44;
+    width: 30%;
+}
+
+.signUpBtn {
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    border-radius: 2px;
+}
+
+.section2 {
+    text-align: center;
+} 
+
+.sec2Title {
+    margin: 0;
+}
+
+.boxesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 16px;
+}
+
+.boxItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+}
+
+.boxes {
+    width: 70px;
+    border: solid 2px #3882f6;
+    height: 70px;
+    border-radius: 5px;
+    
+}
+
+.section3 {
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+}
+
+.sec3Paragraph {
+    width:30%;
+}
+
+.author {
+    text-align: end;
+}
+
+.section4 {
+    flex: 2;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec4Content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #3882f6;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h3 {
+    margin: 0;
+}
+
+.signP {
+    margin: 0;
+}
+
+.sec4Btn {
+    background-color: #3882f6;
+    border-color: white;
+    color: white;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    flex: 1;
+    flex-shrink: 1;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+}
